@@ -1,0 +1,4 @@
+(:name ocp-index
+       :description "ocp-index is a light-weight tool and library providing easy access to the information contained in your OCaml cmi/cmt/cmti files"
+       :type github
+       :pkgname "OCamlPro/ocp-index")
