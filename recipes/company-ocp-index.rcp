@@ -1,4 +1,5 @@
 (:name company-ocp-index
        :description "company-mode back-end to complete OCaml using ocp-index."
        :type github
-       :pkgname "nojb/company-ocp-index")
+       :pkgname "nojb/company-ocp-index"
+       :depends (company-mode tuareg-mode ocp-index))
