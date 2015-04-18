@@ -1,0 +1,4 @@
+(:name company-ess
+       :description "support for ESS completion for company-mode"
+       :type github
+       :pkgname "Lompik")
