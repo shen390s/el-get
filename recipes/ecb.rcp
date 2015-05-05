@@ -3,5 +3,4 @@
        :type github
        :pkgname "alexott/ecb"
        :depends cedet
-       :build `(("make" "CEDET=../cedet" ,(concat "EMACS=" (shell-quote-argument el-get-emacs))
-		 ,(concat "SHELL=" (executable-find "bash")))))
+       :build `(("make" "CEDET=../cedet" ,(concat "EMACS=" (shell-quote-argument el-get-emacs)))))
