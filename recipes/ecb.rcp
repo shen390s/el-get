@@ -4,4 +4,4 @@
        :pkgname "alexott/ecb"
        :depends cedet
        :build `(("make" "CEDET=../cedet" ,(concat "EMACS=" (shell-quote-argument el-get-emacs))
-		 "SHELL=`which bash`")))
+		 ,(concat "SHELL" (executable-find "bash")))))
